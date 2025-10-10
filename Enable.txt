@@ -1,1 +1,593 @@
-Work?!
+
+AMTCtwo@AMTCtwo MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+AMTCtwo@AMTCtwo MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IdeaProjects/
+ Links/
+'Local Settings'@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{1cfc8623-93c8-11f0-b5aa-dbf671c132f1}.TM.blf
+ NTUSER.DAT{1cfc8623-93c8-11f0-b5aa-dbf671c132f1}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{1cfc8623-93c8-11f0-b5aa-dbf671c132f1}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Simufact/
+ Videos/
+ Web/
+ WebComponents/
+ ansel/
+ bs-list.json
+ e-country.json
+ e-user.json
+ eclipse/
+ eclipse-workspace/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ res.bmp
+'Мои документы'@
+ Шаблоны@
+'главное меню'@
+
+AMTCtwo@AMTCtwo MINGW64 ~
+$ cd/d/DataBase
+bash: cd/d/DataBase: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 ~
+$ cd/d/DataBase
+bash: cd/d/DataBase: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 ~
+$ cd/d/DataBase
+bash: cd/d/DataBase: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 ~
+$ cd/d/scan
+bash: cd/d/scan: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 ~
+$ cd/D/DataBase
+bash: cd/D/DataBase: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 ~
+$ cd/d/DataBase
+bash: cd/d/DataBase: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 ~
+$ pwd
+/c/Users/AMTCtwo
+
+AMTCtwo@AMTCtwo MINGW64 ~
+$ cd/d/DataBase/
+bash: cd/d/DataBase/: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 ~
+$ cd /d
+
+AMTCtwo@AMTCtwo MINGW64 /d
+$ cd /d/DataBase/
+
+AMTCtwo@AMTCtwo MINGW64 /d/DataBase
+$ pwd
+/d/DataBase
+
+AMTCtwo@AMTCtwo MINGW64 /d/DataBase
+$ git config --global user.name "Кирилл Кретов"
+
+AMTCtwo@AMTCtwo MINGW64 /d/DataBase
+$ ^C
+
+AMTCtwo@AMTCtwo MINGW64 /d/DataBase
+$ git congig --global user.email "kretov2002@yandex.ru"
+git: 'congig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+AMTCtwo@AMTCtwo MINGW64 /d/DataBase
+$ git config --global user.email "kretov2002@yandex.ru"
+
+AMTCtwo@AMTCtwo MINGW64 /d/DataBase
+$ git init
+Initialized empty Git repository in D:/DataBase/.git/
+
+AMTCtwo@AMTCtwo MINGW64 /d/DataBase (master)
+$ ls
+
+AMTCtwo@AMTCtwo MINGW64 /d/DataBase (master)
+$ ls -a
+./  ../  .git/
+
+AMTCtwo@AMTCtwo MINGW64 /d/DataBase (master)
+$ ls --a
+ls: ambiguous option -- a
+Try 'ls --help' for more information.
+
+AMTCtwo@AMTCtwo MINGW64 /d/DataBase
+$ cd /d/GetRepo/DateBase/
+bash: cd: /d/GetRepo/DateBase/: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 /d/DataBase
+$ cd /d/GitRepo/DateBase/
+bash: cd: /d/GitRepo/DateBase/: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 /d/DataBase
+$ pwd
+/d/DataBase
+
+AMTCtwo@AMTCtwo MINGW64 /d/DataBase
+$ cd /d/GitRepo/
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo
+$ cd /d/GitRepo/DateBase/
+bash: cd: /d/GitRepo/DateBase/: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo
+$ pwd
+/d/GitRepo
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo
+$ cd /d/GitRepo/DataBase/
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ ls --a
+ls: ambiguous option -- a
+Try 'ls --help' for more information.
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ ls -a
+./  ../  .git/
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git add README.txt
+fatal: pathspec 'README.txt' did not match any files
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git add README.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.txt
+
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git commit -m "Добавлен файл README"
+[master (root-commit) ba2d7b0] Добавлен файл README
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git add README.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.txt
+
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git commit -m "Изменения в README"
+[master c5bcfea] Изменения в README
+ 1 file changed, 1 insertion(+)
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git log
+commit c5bcfea5bdeca2b94036cb16c56fb68c0fa43509 (HEAD -> master)
+Author: Кирилл Кретов <kretov2002@yandex.ru>
+Date:   Fri Oct 10 12:00:01 2025 +0400
+
+    Изменения в README
+
+commit ba2d7b0fd8574b6301ce1f5d085227a8e7e85e7e
+Author: Кирилл Кретов <kretov2002@yandex.ru>
+Date:   Fri Oct 10 11:57:57 2025 +0400
+
+    Добавлен файл README
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git add test.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git add README.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.txt
+        new file:   test.txt
+
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git commit -m "Текстовый коммит с 2 изменениями"
+[master 553b2cc] Текстовый коммит с 2 изменениями
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 test.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git log
+commit 553b2cc0238bbfdc6161e91ae0c76d211ca91a39 (HEAD -> master)
+Author: Кирилл Кретов <kretov2002@yandex.ru>
+Date:   Fri Oct 10 12:02:46 2025 +0400
+
+    Текстовый коммит с 2 изменениями
+
+commit c5bcfea5bdeca2b94036cb16c56fb68c0fa43509
+Author: Кирилл Кретов <kretov2002@yandex.ru>
+Date:   Fri Oct 10 12:00:01 2025 +0400
+
+    Изменения в README
+
+commit ba2d7b0fd8574b6301ce1f5d085227a8e7e85e7e
+Author: Кирилл Кретов <kretov2002@yandex.ru>
+Date:   Fri Oct 10 11:57:57 2025 +0400
+
+    Добавлен файл README
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git clone https://github.com/kirbackter/GitTestKirbackter.git
+Cloning into 'GitTestKirbackter'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git gstatus
+git: 'gstatus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GitTestKirbackter/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ cd /d/GitRepo/GitTestKirbackter/
+bash: cd: /d/GitRepo/GitTestKirbackter/: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase (master)
+$ cd /d/GitRepo/DataBase/GitTestKirbackter
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/GitTestKirbackter (main)
+$ cd d/GitRepo/test
+bash: cd: d/GitRepo/test: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/GitTestKirbackter (main)
+$ cd /d/GitRepo/test
+bash: cd: /d/GitRepo/test: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/GitTestKirbackter (main)
+$ cd /d/GitRepo/test/
+bash: cd: /d/GitRepo/test/: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/GitTestKirbackter (main)
+$ cd /d/GitRepo/test/
+bash: cd: /d/GitRepo/test/: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/GitTestKirbackter (main)
+$ cd /d/GitRepo/DataBase/test
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/test (master)
+$ git remote -y
+error: unknown switch `y'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --[no-]verbose    be verbose; must be placed before a subcommand
+
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/test (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../GitTestKirbackter/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/test (master)
+$ git add Hello.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/test (master)
+$ git commit -m "Hello"
+[master 91ac092] Hello
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test/Hello.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/test (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/test (master)
+$ cd /d/GitRepo/DataBase/GetTestKirbackter/
+bash: cd: /d/GitRepo/DataBase/GetTestKirbackter/: No such file or directory
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/test (master)
+$ git add Hello.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/test (master)
+$ git commit -m "Hello"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../GitTestKirbackter/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/test (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../GitTestKirbackter/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/test (master)
+$ cd /d/GitRepo/DataBase/GitTest^C
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/test (master)
+$ ^C
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/test (master)
+$ cd /d/GitRepo/DataBase/GitTestKirbackter/
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/GitTestKirbackter (main)
+$ git add Hello.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/GitTestKirbackter (main)
+$ git commit -m "Hello"
+[main 83a36db] Hello
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Hello.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/GitTestKirbackter (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/GitTestKirbackter (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 28 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 305 bytes | 305.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kirbackter/GitTestKirbackter.git
+   37f5b53..83a36db  main -> main
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/DataBase/GitTestKirbackter (main)
+$ cd /d/GitRepo/Tworepo/
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo
+$ pwd
+/d/GitRepo/Tworepo
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo
+$ git config --global user.name "Kretov Kirill"
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo
+$ git config --global user.email "kretov2002@yandex.ru"
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo
+$ git init
+Initialized empty Git repository in D:/GitRepo/TwoRepo/.git/
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo (master)
+$ ls
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo (master)
+$ ls -a
+./  ../  .git/
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo (master)
+$ add README.txt
+bash: add: command not found
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo (master)
+$ git add README.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo (master)
+$ git commit -m "Создание README"
+[master (root-commit) 4113ce6] Создание README
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo (master)
+$ git clone https://github.com/kirbackter/TwoRepoKirbackter.git
+Cloning into 'TwoRepoKirbackter'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Enable.txt
+        TwoRepoKirbackter/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/Tworepo (master)
+$ cd /d/GitRepo/TwoRepo/TwoRepoKirbackter/
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/TwoRepo/TwoRepoKirbackter (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/TwoRepo/TwoRepoKirbackter (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Enable.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/TwoRepo/TwoRepoKirbackter (main)
+$ agit add Enable.txt
+bash: agit: command not found
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/TwoRepo/TwoRepoKirbackter (main)
+$ git add Enable.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/TwoRepo/TwoRepoKirbackter (main)
+$ git commit -m "Добавил Enable"
+[main 6853394] Добавил Enable
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Enable.txt
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/TwoRepo/TwoRepoKirbackter (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 28 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 304 bytes | 304.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kirbackter/TwoRepoKirbackter.git
+   21e9dae..6853394  main -> main
+
+AMTCtwo@AMTCtwo MINGW64 /d/GitRepo/TwoRepo/TwoRepoKirbackter (main)
